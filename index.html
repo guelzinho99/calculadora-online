@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Mestre Yoda">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Calculadora Online</title>
+</head>
+
+<body>
+    <div>
+        <h1>
+            Calculadora
+        </h1>
+
+        <br><br>
+        
+        <section class="calculadora">
+            <form action="#" name="calculadora" class="calculadora">
+                <label for="nome"><b>1º valor:</b></label> 
+                <input type="text" name="n1" id="n1" placeholder="Digite aqui..."> <br>
+                <label for="nome"><b>2º valor:</b></label> 
+                <input type="text" name="n2" id="n2" placeholder="Digite aqui..."> <br>
+                <br>
+                
+                <h6>Operações Básicas</h6>
+                
+                <div class="opcao1">
+                    <button value="+" onclick="calcular(this.value)">+</button>
+                    <button value="-" onclick="calcular(this.value)">-</button>
+                </div>
+
+                <div class="opcao1">
+                    <button value="x" onclick="calcular(this.value)">x</button>
+                    <button value="÷" onclick="calcular(this.value)">÷</button>
+                </div>
+
+                <br>
+                <h6><a href="index2.html">Operações Avançadas</a></h6>
+            </form>
+        </section>
+    </div>
+</body>
+</html>
